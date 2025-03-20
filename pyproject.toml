@@ -1,0 +1,34 @@
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braindynamics_plus"
+version = "0.1.0"
+authors = [
+    {name = "bpentek", email = "balazs.pentek@ubbcluj.ro"},
+]
+description = "Auxiliary package for BrainDynamics_STARProtocols project"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.1.2",
+    "braindynamics_starprotocol>=1.0.0",
+    "mne"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/bpentek/BrainDynamics_Plus"
+Issues = "https://github.com/bpentek/BrainDynamics_Plus/issues"
+
+[tool.setuptools]
+packages = {find = {where = ["src"]}}
+
+

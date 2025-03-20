@@ -1,0 +1,36 @@
+{
+    "OUTPUT_ROOT":"/home/balazs/research/BrainDynamics_Plus/example/output",
+
+    "DATASET":{
+        
+        "ROOT_DIR":"/home/balazs/research/PCE2022/input/data/eeg/Dots_30_ICA_cleaned_for_UBB/reref_Cleaned_datasets",
+
+        "TRIAL":{
+            "NAME":"after_StimulusON",
+            "START_CODE":[129],
+            "END_CODE":[1, 2, 3]
+        },
+
+        "EVENT_CODE_DESCRIPTIONS":{
+            "251":"Start block",
+            "128":"Fixation dot (red)",
+            "150":"Blank screen",
+            "129":"Stimulus ON",
+            "1":"Key press: 'L' - certain",
+            "2":"Key press: 'S' - uncertain",
+            "3":"Key press: 'A' - nothing",
+            "131":"Message for verbal response",
+            "132":"SPACE pressed to continue",
+            "252":"End block",
+            "255":"End experiment"
+        }
+    },
+
+    "SCA":{
+        "MAX_SHIFT_S":0.15,
+        "SCALE_SIZE_S":0.1
+    }
+
+
+
+}
