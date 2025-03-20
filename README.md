@@ -26,8 +26,6 @@ OR via Anaconda:
 conda create --name braindynamics_env python=3.12
 ```
 
-Install required dependencies:
-
 ### 2) Install package
 
 Unlike the original `braindynamics-starprotocol` package, this one is not uploaded to PyPi. It can be installed locally by cloning this repository and using pip.
@@ -35,6 +33,7 @@ Unlike the original `braindynamics-starprotocol` package, this one is not upload
 ```
 cd ~
 git clone https://github.com/bpentek/BrainDynamics_Plus.git
+cd ./BrainDynamics_Plus
 pip install .
 ```
 
